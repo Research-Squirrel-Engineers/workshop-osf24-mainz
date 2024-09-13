@@ -62,6 +62,61 @@ SELECT DISTINCT ?item ?itemLabel ?geo ?img WHERE {
 }
 ```
 
+# Samian Ware Discovery Sites as Map and SamianURI
+
+via [https://w.wiki/BBVn](https://w.wiki/BBVn)
+
+```
+#Samian Ware Discovery Sites
+#defaultView:Map
+SELECT ?item ?samianURI ?itemLabel ?geo
+WHERE 
+{
+  ?item wdt:P31 wd:Q102202066.
+  ?item wdt:P361 wd:Q90412636.
+  ?item wdt:P625 ?geo.
+  ?item wdt:P2888 ?samianURI.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+```
+
+# Samian Ware Production Centres as Map and SamianURI
+
+via [https://w.wiki/BBVr](https://w.wiki/BBVr)
+
+```
+#Samian Ware Production Centres
+#defaultView:Map
+SELECT ?item ?samianURI ?itemLabel ?geo
+WHERE 
+{
+  ?item wdt:P31 wd:Q102202026.
+  ?item wdt:P361 wd:Q90412636.
+  ?item wdt:P625 ?geo.
+  ?item wdt:P2888 ?samianURI.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+```
+
+# Samian Ware Kiln Regions as Map and SamianURI
+
+via [https://w.wiki/BBVt](https://w.wiki/BBVt)
+
+```
+SELECT ?item ?samianURI ?itemLabel ?geo
+#Samian Ware Production Centres
+#defaultView:Map
+SELECT ?item ?samianURI ?itemLabel ?geo
+WHERE 
+{
+  ?item wdt:P31 wd:Q102202026.
+  ?item wdt:P361 wd:Q90412636.
+  ?item wdt:P625 ?geo.
+  ?item wdt:P2888 ?samianURI.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+```
+
 # Holy Wells as Map with images
 
 via [https://w.wiki/BBJm](https://w.wiki/BBJm)
