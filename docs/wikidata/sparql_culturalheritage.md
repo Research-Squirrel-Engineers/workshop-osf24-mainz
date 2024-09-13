@@ -117,6 +117,59 @@ WHERE
 }
 ```
 
+# Ogham Sites as Map
+
+via [https://w.wiki/BBWL](https://w.wiki/BBWL)
+
+```
+# Ogham Sites (Q72617071)
+#defaultView:Map{"hide":["?geo"]}
+SELECT ?item ?itemLabel ?geo ?layerLabel ?layer WHERE {
+  ?item wdt:P31 wd:Q72617071;
+    wdt:P361 wd:Q100530634;
+    wdt:P625 ?geo;
+    wdt:P131 ?layer.
+  ?layer wdt:P31 wd:Q202156.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+```
+
+# Ogham Sites from the Dingle Peninsula (Barony Corkaguiny) as Map
+
+via [https://w.wiki/BBWL](https://w.wiki/BBWL)
+
+```
+# Ogham Sites in Barony Corkaguiny (Q59419929)
+#defaultView:Map{"hide":["?geo"]}
+SELECT ?item ?itemLabel ?geo WHERE {
+  ?item wdt:P31 wd:Q72617071;
+    wdt:P361 wd:Q100530634;
+    wdt:P625 ?geo;
+    wdt:P131 wd:Q59419929.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+```
+
+# Ogham Sites (Dingle Peninsula) w/ inscription containing "MAQI" as Map
+
+via [https://w.wiki/BBWr](https://w.wiki/BBWr)
+
+```
+# Ogham Sites (Dingle Peninsula) w/ inscription containing "MAQI"
+#defaultView:Map{"hide":["?geo"]}
+SELECT ?geo ?stone ?stoneLabel ?itemLabel ?inscription WHERE {
+  ?item wdt:P31 wd:Q72617071;
+    wdt:P361 wd:Q100530634;
+    wdt:P625 ?geo;
+    wdt:P131 wd:Q59419929.
+  ?stone wdt:P189 ?item.
+  ?stone wdt:P31 wd:Q106602599.
+  ?stone wdt:P1684 ?inscription.
+  FILTER(contains(str(?inscription),'MAQI' ))
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+```
+
 # Holy Wells as Map with images
 
 via [https://w.wiki/BBJm](https://w.wiki/BBJm)
