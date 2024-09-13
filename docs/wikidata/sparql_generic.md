@@ -1,6 +1,6 @@
 # Hospitals in Germany as Map
 
-via https://w.wiki/BBHb
+via [https://w.wiki/BBHb](https://w.wiki/BBHb)
 
 ```
 #Hospitals in Germany
@@ -15,7 +15,7 @@ SELECT DISTINCT ?item ?itemLabel ?geo WHERE {
 
 # International Airports in Germany as Map
 
-via https://w.wiki/BBHg
+via [https://w.wiki/BBHg](https://w.wiki/BBHg)
 
 ```
 #International Airports in Germany
@@ -30,7 +30,7 @@ SELECT DISTINCT * WHERE {
 
 # Museums in Germany as Map
 
-via https://w.wiki/BBHi
+via [https://w.wiki/BBHi](https://w.wiki/BBHi)
 
 ```
 #Museums in Germany
@@ -46,7 +46,7 @@ SELECT DISTINCT ?item ?itemLabel ?geo ?museumtype ?museumtypeLabel WHERE {
 
 # Museums in Germany by type as BubbleChart
 
-via https://w.wiki/BBHk
+via [https://w.wiki/BBHk](https://w.wiki/BBHk)
 
 ```
 #Museums in Germany (by type)
@@ -64,7 +64,7 @@ ORDER BY DESC(?count)
 
 # Museums (type: natural history) in Germany as Map
 
-via https://w.wiki/BBHo
+via [https://w.wiki/BBHo](https://w.wiki/BBHo)
 
 ```
 #Museums (type: natural history) in Germany
