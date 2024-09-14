@@ -17,6 +17,21 @@ WHERE  {
 }
 ```
 
+# Houses in Leipzig 
+
+via [https://tinyurl.com/27yld7yu](https://tinyurl.com/27yld7yu)
+
+```
+#defaultView:Map
+#defaultView:Map{"hide":["?point", "?line"]}
+SELECT 
+  ?address (STRDT(?polygonn, geo:wktLiteral) AS ?polygon)
+WHERE{
+    ?subject wdt:P153 ?address .
+    ?subject wdt:P1035 ?polygonn .
+}
+```
+
 # Poets in Paris as Map
 
 via [https://tinyurl.com/yb2nejbm](https://tinyurl.com/yb2nejbm)
