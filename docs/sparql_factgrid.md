@@ -17,9 +17,9 @@ WHERE  {
 }
 ```
 
-# Houses in Leipzig 
+# Houses in Leipzig /as WKT)
 
-via [https://tinyurl.com/27yld7yu](https://tinyurl.com/27yld7yu)
+via [https://tinyurl.com/2bpanebm](https://tinyurl.com/2bpanebm)
 
 ```
 #defaultView:Map
