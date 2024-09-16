@@ -49,3 +49,21 @@ SELECT ?item ?geo ?name ?latin_name ?typeLabel WHERE {
  }
 }
 ```
+
+# Ogham Stones with MAQI
+
+```
+SELECT DISTINCT ?item ?geo ?itemLabel ?stone ?stoneLabel ?readingLabel WHERE {
+ ?stone oghamonto:shows ogham:OW6.
+ ?stone rdfs:label ?stoneLabel .
+ ?stone a oghamonto:OghamStone_CIIC .
+ ?stone oghamonto:disclosedAt ?item .
+ ?item rdfs:label ?itemLabel .
+ ?item <http://www.opengis.net/ont/geosparql#hasGeometry> ?geom_obj .
+ ?geom_obj geosparql:asWKT ?geo .
+ ?stone oghamonto:carries ?inscription .
+ ?inscription oghamonto:identifiedAs ?reading .
+ ?reading rdfs:label ?readingLabel .
+ FILTER(regex(?readingLabel, "MAQI"))
+}
+```
