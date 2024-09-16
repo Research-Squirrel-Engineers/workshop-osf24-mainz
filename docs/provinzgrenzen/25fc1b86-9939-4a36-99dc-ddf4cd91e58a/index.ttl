@@ -1,0 +1,12 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.github.com/sparqlunicorn#25fc1b86-9939-4a36-99dc-ddf4cd91e58a> a <http://www.github.com/sparqlunicorn#871b27c4-d62d-4a98-8578-cacc42df70d2> ;
+    rdfs:label "Gallia Lugdunensis-Gallia Narbonensis"^^xsd:string ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> ;
+    geo:hasGeometry <http://www.github.com/sparqlunicorn#25fc1b86-9939-4a36-99dc-ddf4cd91e58a_geom> .
+

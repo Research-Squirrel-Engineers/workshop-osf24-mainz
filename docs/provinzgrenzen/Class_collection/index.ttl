@@ -1,0 +1,11 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#Class_collection> a skos:Collection ;
+    rdfs:label "Class Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> ;
+    rdfs:member <http://www.github.com/sparqlunicorn#871b27c4-d62d-4a98-8578-cacc42df70d2> .
+

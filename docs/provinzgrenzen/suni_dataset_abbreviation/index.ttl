@@ -1,0 +1,11 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_abbreviation> a void:Dataset ;
+    rdfs:label "Property Partition: abbreviation"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:property <http://www.opengis.net/ont/crs/abbreviation> ;
+    void:triples 2 .
+

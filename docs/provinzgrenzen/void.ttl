@@ -1,0 +1,796 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.github.com/sparqlunicorn#geo_suni_dataset_occ> voaf:occurrences 162 .
+
+<http://www.github.com/sparqlunicorn#owl_suni_dataset_occ> voaf:occurrences 2 .
+
+<http://www.github.com/sparqlunicorn#skos_suni_dataset_occ> voaf:occurrences 2 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_www.opengis.net_ont_geosparql_> a void:Linkset ;
+    rdfs:label "Linkset: suni_dataset - The GeoSPARQL Ontology"@en ;
+    void:linkPredicate rdf:type,
+        rdfs:subClassOf ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://www.github.com/sparqlunicorn#suni_dataset> ;
+    void:triples 1,
+        80 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_www.w3.org_2002_07_owl_> a void:Linkset ;
+    rdfs:label "Linkset: suni_dataset - Web Ontology Language 2 Vocabulary"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget owl: ;
+    void:subjectsTarget <http://www.github.com/sparqlunicorn#suni_dataset> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: suni_dataset - skos Vocabulary"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://www.github.com/sparqlunicorn#suni_dataset> ;
+    void:triples 1 .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_suni_dataset_occ .
+
+vext:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_suni_dataset_occ .
+
+dcam:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_suni_dataset_occ .
+
+dcmitype:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_suni_dataset_occ .
+
+dc:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_suni_dataset_occ .
+
+dcterms:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_suni_dataset_occ .
+
+qb:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_suni_dataset_occ .
+
+vann:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_suni_dataset_occ .
+
+voaf:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_suni_dataset_occ .
+
+void:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_suni_dataset_occ .
+
+doap:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_871b27c4-d62d-4a98-8578-cacc42df70d2> a void:Dataset ;
+    rdfs:label "Class Partition: 871b27c4-d62d-4a98-8578-cacc42df70d2"@en ;
+    void:class <http://www.github.com/sparqlunicorn#871b27c4-d62d-4a98-8578-cacc42df70d2> ;
+    void:entities 78 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_AxisDirection> a void:Dataset ;
+    rdfs:label "Class Partition: AxisDirection"@en ;
+    void:class <http://www.opengis.net/ont/crs/AxisDirection> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
+    void:class skos:Collection ;
+    void:entities 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_CoordinateSystemAxis> a void:Dataset ;
+    rdfs:label "Class Partition: CoordinateSystemAxis"@en ;
+    void:class <http://www.opengis.net/ont/crs/CoordinateSystemAxis> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_Ellipsoid> a void:Dataset ;
+    rdfs:label "Class Partition: Ellipsoid"@en ;
+    void:class <http://www.opengis.net/ont/crs/Ellipsoid> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_EllipsoidalCoordinateSystem> a void:Dataset ;
+    rdfs:label "Class Partition: EllipsoidalCoordinateSystem"@en ;
+    void:class <http://www.opengis.net/ont/crs/EllipsoidalCoordinateSystem> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_Entity> a void:Dataset ;
+    rdfs:label "Class Partition: Entity"@en ;
+    void:class <http://www.w3.org/ns/prov-o/Entity> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_Feature> a void:Dataset ;
+    rdfs:label "Class Partition: Feature"@en ;
+    void:class geo:Feature .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_FeatureCollection> a void:Dataset ;
+    rdfs:label "Class Partition: FeatureCollection"@en ;
+    void:class geo:FeatureCollection ;
+    void:entities 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_GeodeticReferenceFrame> a void:Dataset ;
+    rdfs:label "Class Partition: GeodeticReferenceFrame"@en ;
+    void:class <http://www.opengis.net/ont/crs/GeodeticReferenceFrame> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_GeographicCRS> a void:Dataset ;
+    rdfs:label "Class Partition: GeographicCRS"@en ;
+    void:class <http://www.opengis.net/ont/crs/GeographicCRS> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_Geometry> a void:Dataset ;
+    rdfs:label "Class Partition: Geometry"@en ;
+    void:class geo:Geometry .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_GeometryCollection> a void:Dataset ;
+    rdfs:label "Class Partition: GeometryCollection"@en ;
+    void:class geo:GeometryCollection ;
+    void:entities 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_LineString> a void:Dataset ;
+    rdfs:label "Class Partition: LineString"@en ;
+    void:class geo:LineString ;
+    void:entities 78 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_PlanarCoordinateSystem> a void:Dataset ;
+    rdfs:label "Class Partition: PlanarCoordinateSystem"@en ;
+    void:class <http://www.opengis.net/ont/crs/PlanarCoordinateSystem> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_PrimeMeridian> a void:Dataset ;
+    rdfs:label "Class Partition: PrimeMeridian"@en ;
+    void:class <http://www.opengis.net/ont/crs/PrimeMeridian> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_SpatialObject> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObject"@en ;
+    void:class geo:SpatialObject .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_SpatialObjectCollection> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
+    void:class geo:SpatialObjectCollection .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_SpatialReferenceSystem> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialReferenceSystem"@en ;
+    void:class <http://www.opengis.net/ont/crs/SpatialReferenceSystem> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_Unit> a void:Dataset ;
+    rdfs:label "Class Partition: Unit"@en ;
+    void:class <http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_abbreviation> a void:Dataset ;
+    rdfs:label "Property Partition: abbreviation"@en ;
+    void:property <http://www.opengis.net/ont/crs/abbreviation> ;
+    void:triples 2 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_approximates> a void:Dataset ;
+    rdfs:label "Property Partition: approximates"@en ;
+    void:property <http://www.opengis.net/ont/crs/approximates> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_asProj> a void:Dataset ;
+    rdfs:label "Property Partition: asProj"@en ;
+    void:property <http://www.opengis.net/ont/crs/asProj> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_asProj4> a void:Dataset ;
+    rdfs:label "Property Partition: asProj4"@en ;
+    void:property <http://www.opengis.net/ont/crs/asProj4> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_asProjJSON> a void:Dataset ;
+    rdfs:label "Property Partition: asProjJSON"@en ;
+    void:property <http://www.opengis.net/ont/crs/asProjJSON> ;
+    void:triples 3 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_asWKT> a void:Dataset ;
+    rdfs:label "Property Partition: asWKT"@en ;
+    void:property <http://www.opengis.net/ont/crs/asWKT>,
+        geo:asWKT ;
+    void:triples 4,
+        78 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_axis> a void:Dataset ;
+    rdfs:label "Property Partition: axis"@en ;
+    void:property <http://www.opengis.net/ont/crs/axis> ;
+    void:triples 2 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_coordinateSystem> a void:Dataset ;
+    rdfs:label "Property Partition: coordinateSystem"@en ;
+    void:property <http://www.opengis.net/ont/crs/coordinateSystem> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_datum> a void:Dataset ;
+    rdfs:label "Property Partition: datum"@en ;
+    void:property <http://www.opengis.net/ont/crs/datum> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_definition> a void:Dataset ;
+    rdfs:label "Property Partition: definition"@en ;
+    void:property skos:definition ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_direction> a void:Dataset ;
+    rdfs:label "Property Partition: direction"@en ;
+    void:property <http://www.opengis.net/ont/crs/direction> ;
+    void:triples 2 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_dist_ttl> a <http://www.w3.org/ns/adms#AssetDistribution> ;
+    rdfs:label "suni_dataset TTL Distribution"@en ;
+    dcat:downloadURL "/index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_domain> a void:Dataset ;
+    rdfs:label "Property Partition: domain"@en ;
+    void:property rdfs:domain ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_eccentricity> a void:Dataset ;
+    rdfs:label "Property Partition: eccentricity"@en ;
+    void:property <http://www.opengis.net/ont/crs/eccentricity> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_ellipse> a void:Dataset ;
+    rdfs:label "Property Partition: ellipse"@en ;
+    void:property <http://www.opengis.net/ont/crs/ellipse> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_epsgCode> a void:Dataset ;
+    rdfs:label "Property Partition: epsgCode"@en ;
+    void:property <http://www.opengis.net/ont/crs/epsgCode> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_flatteningParameter> a void:Dataset ;
+    rdfs:label "Property Partition: flatteningParameter"@en ;
+    void:property <http://www.opengis.net/ont/crs/flatteningParameter> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_hasGeometry> a void:Dataset ;
+    rdfs:label "Property Partition: hasGeometry"@en ;
+    void:property geo:hasGeometry ;
+    void:triples 78 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_inverse_flattening> a void:Dataset ;
+    rdfs:label "Property Partition: inverse_flattening"@en ;
+    void:property <http://www.opengis.net/ont/crs/inverse_flattening> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_isApplicableTo> a void:Dataset ;
+    rdfs:label "Property Partition: isApplicableTo"@en ;
+    void:property <http://www.opengis.net/ont/crs/isApplicableTo> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_isBound> a void:Dataset ;
+    rdfs:label "Property Partition: isBound"@en ;
+    void:property <http://www.opengis.net/ont/crs/isBound> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_isGeocentric> a void:Dataset ;
+    rdfs:label "Property Partition: isGeocentric"@en ;
+    void:property <http://www.opengis.net/ont/crs/isGeocentric> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_isGeographic> a void:Dataset ;
+    rdfs:label "Property Partition: isGeographic"@en ;
+    void:property <http://www.opengis.net/ont/crs/isGeographic> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_isProjected> a void:Dataset ;
+    rdfs:label "Property Partition: isProjected"@en ;
+    void:property <http://www.opengis.net/ont/crs/isProjected> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_isSphere> a void:Dataset ;
+    rdfs:label "Property Partition: isSphere"@en ;
+    void:property <http://www.opengis.net/ont/crs/isSphere> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_isVertical> a void:Dataset ;
+    rdfs:label "Property Partition: isVertical"@en ;
+    void:property <http://www.opengis.net/ont/crs/isVertical> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_is_semi_minor_computed> a void:Dataset ;
+    rdfs:label "Property Partition: is_semi_minor_computed"@en ;
+    void:property <http://www.opengis.net/ont/crs/is_semi_minor_computed> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 85 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_longitude> a void:Dataset ;
+    rdfs:label "Property Partition: longitude"@en ;
+    void:property <http://www.opengis.net/ont/crs/longitude> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_primeMeridian> a void:Dataset ;
+    rdfs:label "Property Partition: primeMeridian"@en ;
+    void:property <http://www.opengis.net/ont/crs/primeMeridian> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_range> a void:Dataset ;
+    rdfs:label "Property Partition: range"@en ;
+    void:property rdfs:range ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_semiMajorAxis> a void:Dataset ;
+    rdfs:label "Property Partition: semiMajorAxis"@en ;
+    void:property <http://www.opengis.net/ont/crs/semiMajorAxis> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_semiMinorAxis> a void:Dataset ;
+    rdfs:label "Property Partition: semiMinorAxis"@en ;
+    void:property <http://www.opengis.net/ont/crs/semiMinorAxis> ;
+    void:triples 1 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_subClassOf> a void:Dataset ;
+    rdfs:label "Property Partition: subClassOf"@en ;
+    void:property rdfs:subClassOf ;
+    void:triples 4 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 178 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_unit> a void:Dataset ;
+    rdfs:label "Property Partition: unit"@en ;
+    void:property <http://www.opengis.net/ont/crs/unit> ;
+    void:triples 3 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_unit_auth_code> a void:Dataset ;
+    rdfs:label "Property Partition: unit_auth_code"@en ;
+    void:property <http://www.opengis.net/ont/crs/unit_auth_code> ;
+    void:triples 2 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_unit_code> a void:Dataset ;
+    rdfs:label "Property Partition: unit_code"@en ;
+    void:property <http://www.opengis.net/ont/crs/unit_code> ;
+    void:triples 2 .
+
+<http://www.github.com/sparqlunicorn#suni_dataset_unit_conversion_factor> a void:Dataset ;
+    rdfs:label "Property Partition: unit_conversion_factor"@en ;
+    void:property <http://www.opengis.net/ont/crs/unit_conversion_factor> ;
+    void:triples 2 .
+
+geo:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_suni_dataset_occ .
+
+rdf:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_suni_dataset_occ .
+
+rdfs:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_suni_dataset_occ .
+
+xsd:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+owl:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+skos:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_suni_dataset_occ .
+
+time:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_suni_dataset_occ .
+
+xml:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_suni_dataset_occ .
+
+csvw:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_suni_dataset_occ .
+
+dcat:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_suni_dataset_occ .
+
+prof:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_suni_dataset_occ .
+
+odrl:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_suni_dataset_occ .
+
+org:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_suni_dataset_occ .
+
+prov:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_suni_dataset_occ .
+
+sh:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_suni_dataset_occ .
+
+sosa:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_suni_dataset_occ .
+
+ssn:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_suni_dataset_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+foaf:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_suni_dataset_occ .
+
+brick:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_suni_dataset_occ .
+
+schema:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_suni_dataset_occ .
+
+wgs:_suni_dataset_occ a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in suni_dataset" ;
+    voaf:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_suni_dataset_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_suni_dataset_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_suni_dataset_occ .
+
+<http://www.github.com/sparqlunicorn#suni_dataset> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset> ;
+    rdfs:label "suni_dataset"@en ;
+    vext:averageLiteralLength 746 ;
+    vext:averageObjectIRILength 62 ;
+    vext:averagePropertyIRILength 42 ;
+    vext:averageSubjectIRILength 74 ;
+    vext:datatypes 2 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 493 ;
+    vext:distinctLiterals 136 ;
+    vext:distinctRDFNodes 629 ;
+    vext:languages 1 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
+    dcterms:modified "None"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "suni_dataset"@en ;
+    vann:preferredNamespacePrefix "suni"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.github.com/sparqlunicorn#"^^xsd:anyURI ;
+    void:classPartition <http://www.github.com/sparqlunicorn#suni_dataset_871b27c4-d62d-4a98-8578-cacc42df70d2>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_AxisDirection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Collection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_CoordinateSystemAxis>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Ellipsoid>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_EllipsoidalCoordinateSystem>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Entity>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Feature>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_FeatureCollection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_GeodeticReferenceFrame>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_GeographicCRS>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Geometry>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_GeometryCollection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_LineString>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_PlanarCoordinateSystem>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_PrimeMeridian>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_SpatialObject>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_SpatialObjectCollection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_SpatialReferenceSystem>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Unit> ;
+    void:classes 20 ;
+    void:dataDump </index.ttl> ;
+    void:distinctObjects 273 ;
+    void:distinctSubjects 181 ;
+    void:entities 161 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 39 ;
+    void:propertyPartition <http://www.github.com/sparqlunicorn#suni_dataset_abbreviation>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_approximates>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_asProj>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_asProj4>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_asProjJSON>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_asWKT>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_axis>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_coordinateSystem>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_datum>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_definition>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_direction>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_domain>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_eccentricity>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_ellipse>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_epsgCode>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_flatteningParameter>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_hasGeometry>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_inverse_flattening>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isApplicableTo>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isBound>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isGeocentric>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isGeographic>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isProjected>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isSphere>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isVertical>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_is_semi_minor_computed>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_label>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_longitude>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_primeMeridian>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_range>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_semiMajorAxis>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_semiMinorAxis>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_subClassOf>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_type>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_unit>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_unit_auth_code>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_unit_code>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_unit_conversion_factor> ;
+    void:triples 796 ;
+    void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://www.github.com/sparqlunicorn#suni_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    foaf:homepage <> ;
+    foaf:page </index.html> .
+

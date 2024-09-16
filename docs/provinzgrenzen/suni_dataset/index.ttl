@@ -1,0 +1,165 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.github.com/sparqlunicorn#suni_dataset> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset> ;
+    rdfs:label "suni_dataset"@en ;
+    ns1:averageLiteralLength 746 ;
+    ns1:averageObjectIRILength 62 ;
+    ns1:averagePropertyIRILength 42 ;
+    ns1:averageSubjectIRILength 74 ;
+    ns1:datatypes 2 ;
+    ns1:distinctBlankNodes 0 ;
+    ns1:distinctIRIReferences 493 ;
+    ns1:distinctLiterals 136 ;
+    ns1:distinctRDFNodes 629 ;
+    ns1:languages 1 ;
+    ns1:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
+    dcterms:modified "None"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "suni_dataset"@en ;
+    vann:preferredNamespacePrefix "suni"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.github.com/sparqlunicorn#"^^xsd:anyURI ;
+    void:classPartition <http://www.github.com/sparqlunicorn#suni_dataset_871b27c4-d62d-4a98-8578-cacc42df70d2>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_AxisDirection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Collection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_CoordinateSystemAxis>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Ellipsoid>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_EllipsoidalCoordinateSystem>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Entity>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Feature>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_FeatureCollection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_GeodeticReferenceFrame>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_GeographicCRS>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Geometry>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_GeometryCollection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_LineString>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_PlanarCoordinateSystem>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_PrimeMeridian>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_SpatialObject>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_SpatialObjectCollection>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_SpatialReferenceSystem>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_Unit> ;
+    void:classes 20 ;
+    void:dataDump </index.ttl> ;
+    void:distinctObjects 273 ;
+    void:distinctSubjects 181 ;
+    void:entities 161 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 39 ;
+    void:propertyPartition <http://www.github.com/sparqlunicorn#suni_dataset_abbreviation>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_approximates>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_asProj>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_asProj4>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_asProjJSON>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_asWKT>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_axis>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_coordinateSystem>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_datum>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_definition>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_direction>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_domain>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_eccentricity>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_ellipse>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_epsgCode>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_flatteningParameter>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_hasGeometry>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_inverse_flattening>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isApplicableTo>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isBound>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isGeocentric>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isGeographic>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isProjected>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isSphere>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_isVertical>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_is_semi_minor_computed>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_label>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_longitude>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_primeMeridian>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_range>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_semiMajorAxis>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_semiMinorAxis>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_subClassOf>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_type>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_unit>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_unit_auth_code>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_unit_code>,
+        <http://www.github.com/sparqlunicorn#suni_dataset_unit_conversion_factor> ;
+    void:triples 796 ;
+    void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
+    void:vocabulary ns1:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://www.github.com/sparqlunicorn#suni_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    foaf:homepage <> ;
+    foaf:page </index.html> .
+

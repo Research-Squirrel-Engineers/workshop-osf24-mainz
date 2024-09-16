@@ -1,0 +1,1 @@
+{"http://rdfs.org/ns/void#inDataset": ["http://www.github.com/sparqlunicorn#suni_dataset"], "http://www.opengis.net/ont/geosparql#asWKT": ["LineString (5.96617900000000034 34.17775000000000318, 5.97260800000000014 34.17654499999999729)"], "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.opengis.net/ont/geosparql#LineString"]}

@@ -1,0 +1,9 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#3100521e-9226-41a1-bcc6-7f85def70dbb_geom> a geo:LineString ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <http://www.github.com/sparqlunicorn#suni_dataset> ;
+    geo:asWKT "LineString (9.00564100000000067 50.25458700000000078, 9.0084079999999993 50.04308699999999988, 9.03067300000000017 50.04782300000000106)"^^geo:wktLiteral .
+
