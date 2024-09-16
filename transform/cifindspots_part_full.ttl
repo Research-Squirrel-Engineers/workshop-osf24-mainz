@@ -1,0 +1,1585 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geocrs: <http://www.opengis.net/ont/crs/> .
+@prefix geocrsaxis: <http://www.opengis.net/ont/crs/cs/axis/> .
+@prefix geocrsdatum: <http://www.opengis.net/ont/crs/datum/> .
+@prefix geocrsgeod: <http://www.opengis.net/ont/crs/geod/> .
+@prefix geocrsisbody: <http://www.opengis.net/ont/crs/isbody/> .
+@prefix geocrsmeridian: <http://www.opengis.net/ont/crs/primeMeridian/> .
+@prefix geoepsg: <http://www.opengis.net/def/crs/EPSG/0/> .
+@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov1: <http://www.w3.org/ns/prov-o/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix suni: <http://www.github.com/sparqlunicorn#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+suni:04e561e8-3672-478c-b117-6ad439c589be a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:dubious"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Tufarella Area"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q1438;http://openstreetmap.org/relation/40218> ;
+    suni:relatedtohow "fsl:partlyMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.7906 40.7616)"^^xsd:string ;
+    geo:hasGeometry suni:04e561e8-3672-478c-b117-6ad439c589be_geom .
+
+suni:0b575106-41b3-4027-a177-a2e13293271b a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Copecchia"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 4371325110"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q3690987;http://openstreetmap.org/node/4371325110> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.7662 40.7198)"^^xsd:string ;
+    geo:hasGeometry suni:0b575106-41b3-4027-a177-a2e13293271b_geom .
+
+suni:0e64abf6-5313-4a91-970f-ba4116312dac a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Pucara"^^xsd:string ;
+    suni:literature "Civetta et al., 1997"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://openstreetmap.org/node/716485183> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.6459 40.6783)"^^xsd:string ;
+    geo:hasGeometry suni:0e64abf6-5313-4a91-970f-ba4116312dac_geom .
+
+suni:0fa57f68-19aa-4f0d-8b37-76d6bbe3e030 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Monticchio (Bagni)"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q593338> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(15.5699 40.9490)"^^xsd:string ;
+    geo:hasGeometry suni:0fa57f68-19aa-4f0d-8b37-76d6bbe3e030_geom .
+
+suni:26edc892-dcc1-493e-ada7-4cd73fb4abaa a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Orlovat"^^xsd:string ;
+    suni:literature "Obreht, I. et al. (2017), Fig. 1;Obreht, I. et al. (2015)"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using GeoNamessGoogle Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/787391> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(20.5809 45.2417)"^^xsd:string ;
+    geo:hasGeometry suni:26edc892-dcc1-493e-ada7-4cd73fb4abaa_geom .
+
+suni:284e54a0-2e15-4efa-afe3-90a5138b8d11 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Torregaveta"^^xsd:string ;
+    suni:literature "Pappalardo et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q47352348> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.0477 40.8111) "^^xsd:string ;
+    geo:hasGeometry suni:284e54a0-2e15-4efa-afe3-90a5138b8d11_geom .
+
+suni:32618a3e-9306-4897-9122-9d6ef66c97dd a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Batajnica"^^xsd:string ;
+    suni:literature "Obreht, I. et al. (2017), Fig. 1;Buggle, B. et al. (2013);Buggle, B. et al. (2014)"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using GeoNamessGoogle Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/792838> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(20.2802 44.9032)"^^xsd:string ;
+    geo:hasGeometry suni:32618a3e-9306-4897-9122-9d6ef66c97dd_geom .
+
+suni:35f53e25-2987-4e3f-beb6-473d691e2457 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Serino"^^xsd:string ;
+    suni:literature "Fedele et al., 2008;Giaccio et al., 2008;Lowe et al., 2012"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q55113> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.8706 40.8567)"^^xsd:string ;
+    geo:hasGeometry suni:35f53e25-2987-4e3f-beb6-473d691e2457_geom .
+
+suni:38118ef2-f8b8-48cc-9833-b718132f80ff a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:low"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Tenaghi Philippon (Greece)"^^xsd:string ;
+    suni:literature "Lowe et al., 2012;Wulf et al., 2018"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://openstreetmap.org/node/299298568> ;
+    suni:relatedtohow "fsl:dubiousMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(24.2274 40.9794)"^^xsd:string ;
+    geo:hasGeometry suni:38118ef2-f8b8-48cc-9833-b718132f80ff_geom .
+
+suni:38f989d2-ae5f-49a7-875d-3cb5025b681a a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Pozzuoli Bay"^^xsd:string ;
+    suni:literature "Orsi et al., 1996"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q386701;http://openstreetmap.org/relation/8222525> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Bight "^^xsd:string ;
+    suni:wkt "POINT(14.0890 40.8215)"^^xsd:string ;
+    geo:hasGeometry suni:38f989d2-ae5f-49a7-875d-3cb5025b681a_geom .
+
+suni:3ba8194d-e14a-4daf-9400-bfca8ee283b7 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper and found on OpenStreetMap"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Crvena Stiljena (Montenegro)"^^xsd:string ;
+    suni:literature "Morley & Woodward, 2011"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 10879170567"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://openstreetmap.org/node/10879170567;http://wikidata.org/entity/Q121418883> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave;fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(18.4815 42.7790) "^^xsd:string ;
+    geo:hasGeometry suni:3ba8194d-e14a-4daf-9400-bfca8ee283b7_geom .
+
+suni:3d7cd4a7-d402-4bd4-aae7-b4fc7b1b1196 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Cuma"^^xsd:string ;
+    suni:literature "Pappalardo et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 4371325110"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q243456> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.0560 40.8381) "^^xsd:string ;
+    geo:hasGeometry suni:3d7cd4a7-d402-4bd4-aae7-b4fc7b1b1196_geom .
+
+suni:40efd813-2bf3-42df-8772-d03523531c55 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Sant‘ Agata dei due Golfi"^^xsd:string ;
+    suni:literature "Civetta et al., 1997"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 705576753"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q1860399;http://openstreetmap.org/node/705576753> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.3733 40.6070)"^^xsd:string ;
+    geo:hasGeometry suni:40efd813-2bf3-42df-8772-d03523531c55_geom .
+
+suni:44ff90bf-a0cb-4171-8252-b6f91fd4e8ee a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:low"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Murge Plateau"^^xsd:string ;
+    suni:literature "Giaccio et al., 2008"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/3174898> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Plateau"^^xsd:string ;
+    suni:wkt "POINT(16.2833 41.0047)"^^xsd:string ;
+    geo:hasGeometry suni:44ff90bf-a0cb-4171-8252-b6f91fd4e8ee_geom .
+
+suni:45ada15f-34cd-40e5-9b17-54d4c29f4af7 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Naples"^^xsd:string ;
+    suni:literature "Orsi et al., 1996"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/3172391> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.2080 40.8537)"^^xsd:string ;
+    geo:hasGeometry suni:45ada15f-34cd-40e5-9b17-54d4c29f4af7_geom .
+
+suni:4858e193-fb19-467f-9688-6a70211b0f9d a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Dunaszekcső"^^xsd:string ;
+    suni:literature "Obreht, I. et al. (2017), Fig. 1;Újvári, G. Et al. (2016)"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using GeoNamessGoogle Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/3053454> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(18.7587 46.0874)"^^xsd:string ;
+    geo:hasGeometry suni:4858e193-fb19-467f-9688-6a70211b0f9d_geom .
+
+suni:4b5b0bd0-96c0-4146-a40e-475c2074411f a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Trefola"^^xsd:string ;
+    suni:literature "Pappalardo et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://www.openstreetmap.org/node/4225662539> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.1486 40.8926)"^^xsd:string ;
+    geo:hasGeometry suni:4b5b0bd0-96c0-4146-a40e-475c2074411f_geom .
+
+suni:505ac950-ecad-424d-9f22-2ac722eaf069 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Toplitsa Cave (Bulgaria)"^^xsd:string ;
+    suni:literature "Tsanova et al., 2021"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Tsanova et al., 2021, p.2"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q61788595;http://openstreetmap.org/node/11109379095> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave;fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(24.0053 43.1907)"^^xsd:string ;
+    geo:hasGeometry suni:505ac950-ecad-424d-9f22-2ac722eaf069_geom .
+
+suni:511fe6f8-1593-452b-a308-83a7457e1aa0 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Paglicci Cave"^^xsd:string ;
+    suni:literature "Giaccio et al., 2008"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 2293681037"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q3777010;http://openstreetmap.org/node/2293681037> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave;fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(15.6150 41.6541)"^^xsd:string ;
+    geo:hasGeometry suni:511fe6f8-1593-452b-a308-83a7457e1aa0_geom .
+
+suni:59b63e96-da17-43e5-b28f-bed74ef1c667 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:dubious"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Bratul Borcea (Romania)"^^xsd:string ;
+    suni:literature "Pötter et al., 2021"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/684225> ;
+    suni:relatedtohow "fsl:dubiousMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(27.3271 44.1891)"^^xsd:string ;
+    geo:hasGeometry suni:59b63e96-da17-43e5-b28f-bed74ef1c667_geom .
+
+suni:5b01d480-6bf5-4747-a402-3d3d801d0481 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Casola"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://www.openstreetmap.org/node/68580470> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.5259 40.6993)"^^xsd:string ;
+    geo:hasGeometry suni:5b01d480-6bf5-4747-a402-3d3d801d0481_geom .
+
+suni:5b99fefc-a7aa-4d5e-b8aa-d178f33d7627 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:representative"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Dobrogea (Romania)"^^xsd:string ;
+    suni:literature "Fitzsimmons et al., 2014; Fitzsimmons et al.,2013"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/679193> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Plateau"^^xsd:string ;
+    suni:wkt "POINT(28.2329 43.9996)"^^xsd:string ;
+    geo:hasGeometry suni:5b99fefc-a7aa-4d5e-b8aa-d178f33d7627_geom .
+
+suni:63dac21d-69f7-4da0-a11f-dbe3af89c787 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Rasova"^^xsd:string ;
+    suni:literature "Obreht, I. et al. (2017), Fig. 1;Zeeden, C. et al. (2018)"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using GeoNamessGoogle Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/669148> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(27.9347 44.2462)"^^xsd:string ;
+    geo:hasGeometry suni:63dac21d-69f7-4da0-a11f-dbe3af89c787_geom .
+
+suni:6656fdc3-3326-4470-8900-b8977af384be a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Lake Ohrid (Albania)"^^xsd:string ;
+    suni:literature "Leicher et al., 2019, 2016"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q156258;https://www.openstreetmap.org/relation/2905270> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Lake"^^xsd:string ;
+    suni:wkt "POINT(20.6749 40.9874)"^^xsd:string ;
+    geo:hasGeometry suni:6656fdc3-3326-4470-8900-b8977af384be_geom .
+
+suni:66bd22f2-b37a-44d4-bfaf-d981ff435fe7 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Sant‘ Angelo a Scala"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 68567290"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q55100;http://openstreetmap.org/node/68567290> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.7402 40.9746)"^^xsd:string ;
+    geo:hasGeometry suni:66bd22f2-b37a-44d4-bfaf-d981ff435fe7_geom .
+
+suni:69b86dc3-d2a9-4dd7-a1ca-055c27247d84 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Gulf of Naples"^^xsd:string ;
+    suni:literature "Arienzo et al., 2009"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 4371325110"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/3172393> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Bight "^^xsd:string ;
+    suni:wkt "POINT(14.2559 40.7192)"^^xsd:string ;
+    geo:hasGeometry suni:69b86dc3-d2a9-4dd7-a1ca-055c27247d84_geom .
+
+suni:6a7e9260-0006-4ac4-bd23-ca2ce4816f86 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:dubious"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Voscone Area"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q1438;http://openstreetmap.org/relation/40218> ;
+    suni:relatedtohow "fsl:partlyMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.5194 40.8005)"^^xsd:string ;
+    geo:hasGeometry suni:6a7e9260-0006-4ac4-bd23-ca2ce4816f86_geom .
+
+suni:723a3d7f-7e39-4bc3-9f61-f23ef357a42f a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "San Marco"^^xsd:string ;
+    suni:literature "Civetta et al., 1997"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q58849> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.3381 41.0369)"^^xsd:string ;
+    geo:hasGeometry suni:723a3d7f-7e39-4bc3-9f61-f23ef357a42f_geom .
+
+suni:79e3a8d3-1639-4c11-802d-d282181da31e a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Lake Ohrid (Macedonia)"^^xsd:string ;
+    suni:literature "Leicher et al., 2019; Leicher et al., 2016"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q156258;https://www.openstreetmap.org/relation/2905270> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Lake"^^xsd:string ;
+    suni:wkt "POINT(20.7409 41.0467)"^^xsd:string ;
+    geo:hasGeometry suni:79e3a8d3-1639-4c11-802d-d282181da31e_geom .
+
+suni:7bb229e5-d76c-4d3f-95c5-2ee508ad26a5 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Kozarnika Cave (Bulgaria)"^^xsd:string ;
+    suni:literature "Lowe et al., 2012"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q2037533;http://openstreetmap.org/node/8814442373> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave"^^xsd:string ;
+    suni:wkt "POINT(22.7024 43.6519)"^^xsd:string ;
+    geo:hasGeometry suni:7bb229e5-d76c-4d3f-95c5-2ee508ad26a5_geom .
+
+suni:7e61a9ab-ace6-4bc0-b346-5f238e4fd1b4 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Klissoura (Greece)"^^xsd:string ;
+    suni:literature "Lowe et al., 2012"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q21468911> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(21.4672 40.5361)"^^xsd:string ;
+    geo:hasGeometry suni:7e61a9ab-ace6-4bc0-b346-5f238e4fd1b4_geom .
+
+suni:80e8067c-83bb-4c12-bfdf-3a2f69586cb6 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:low"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Lower Danube Basin (Romania)"^^xsd:string ;
+    suni:literature "Obreht et al., 2017"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps and Obdreht et al (2017), Fig. 1"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://sws.geonames.org/791630> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Plateau"^^xsd:string ;
+    suni:wkt "POINT(25.2920 43.6550)"^^xsd:string ;
+    geo:hasGeometry suni:80e8067c-83bb-4c12-bfdf-3a2f69586cb6_geom .
+
+suni:8f5e2c5d-adb6-48d1-8862-7cbfcf789c69 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Phlegraean Fields"^^xsd:string ;
+    suni:literature "Orsi et al., 1996;Fedele et al., 2003"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 4948370721"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q755123;http://openstreetmap.org/node/10879170567> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Supervolcano"^^xsd:string ;
+    suni:wkt "POINT(14.1402 40.8275) "^^xsd:string ;
+    geo:hasGeometry suni:8f5e2c5d-adb6-48d1-8862-7cbfcf789c69_geom .
+
+suni:93a9ab84-dd31-49c1-bec9-55e2fb2db6fe a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Monticchio Lakes"^^xsd:string ;
+    suni:literature "Brauer et al., 2000;Fedele et al., 2003"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://www.openstreetmap.org/relation/15802545> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Lake"^^xsd:string ;
+    suni:wkt "POINT (15.6098 40.9319)"^^xsd:string ;
+    geo:hasGeometry suni:93a9ab84-dd31-49c1-bec9-55e2fb2db6fe_geom .
+
+suni:99aa8699-e8f3-439c-bbc4-dc0ce9875297 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Vico Equense"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q72732> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.4273 40.6622)"^^xsd:string ;
+    geo:hasGeometry suni:99aa8699-e8f3-439c-bbc4-dc0ce9875297_geom .
+
+suni:9b4a2b53-ef11-49e8-bc1b-ff57b97c507e a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Punta Marmolite"^^xsd:string ;
+    suni:literature "Pappalardo et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q72443> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.1489 40.8888)"^^xsd:string ;
+    geo:hasGeometry suni:9b4a2b53-ef11-49e8-bc1b-ff57b97c507e_geom .
+
+suni:9e652ceb-382c-4ee1-aa48-fcc0077dbeab a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Massaquano (Naples)"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q3850928> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.4476 40.6619)"^^xsd:string ;
+    geo:hasGeometry suni:9e652ceb-382c-4ee1-aa48-fcc0077dbeab_geom .
+
+suni:9eb0f685-9fd8-4d3e-b948-41d561e74c65 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Stalać"^^xsd:string ;
+    suni:literature "Obreht, I. et al. (2017), Fig. 1;Obreht, I. et al. (2016)"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using GeoNamessGoogle Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/838724> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(21.4058 43.6728)"^^xsd:string ;
+    geo:hasGeometry suni:9eb0f685-9fd8-4d3e-b948-41d561e74c65_geom .
+
+suni:a0c4bf81-ae3a-4b77-b1f5-c47917917cda a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Haua-Fteah (Libya)"^^xsd:string ;
+    suni:literature "Lowe et al., 2012"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 7778324735"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q25226810;http://openstreetmap.org/node/7778324735> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave;fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(22.0516 32.9002)"^^xsd:string ;
+    geo:hasGeometry suni:a0c4bf81-ae3a-4b77-b1f5-c47917917cda_geom .
+
+suni:a28ee4f2-3460-4ee3-8f60-25ad48649adb a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Temnata Cave (Bulgaria)"^^xsd:string ;
+    suni:literature "Fedele et al., 2008, 2003;Fitzsimmons et al., 2013;Giaccio et al., 2008"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://sws.geonames.org/726486;http://openstreetmap.org/node/369821847;http://wikidata.org/entity/Q12296153> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave"^^xsd:string ;
+    suni:wkt "POINT(23.3848 43.0892)"^^xsd:string ;
+    geo:hasGeometry suni:a28ee4f2-3460-4ee3-8f60-25ad48649adb_geom .
+
+suni:a459cf43-0ddb-4bfb-8d7c-4c76e9a17c5e a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Lago Patria (Naples)"^^xsd:string ;
+    suni:literature "Civetta et al., 1997;Scandone et al., 1991"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 4371325110"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/9881928> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.0366 40.9260)"^^xsd:string ;
+    geo:hasGeometry suni:a459cf43-0ddb-4bfb-8d7c-4c76e9a17c5e_geom .
+
+suni:acc0cc13-f0e4-474f-b29f-a10b5ea109ac a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Tabula Traiana (Serbia)"^^xsd:string ;
+    suni:literature "Boric et al., 2012;Lowe et al., 2012"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q2091689;https://www.openstreetmap.org/node/1918839400> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(22.3094 44.6568)"^^xsd:string ;
+    geo:hasGeometry suni:acc0cc13-f0e4-474f-b29f-a10b5ea109ac_geom .
+
+suni:adb3ba5a-5672-4774-b548-13baceb65a83 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Pacognano"^^xsd:string ;
+    suni:literature "Civetta et al., 1997;Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://www.openstreetmap.org/node/5381436704> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.4347 40.6484)"^^xsd:string ;
+    geo:hasGeometry suni:adb3ba5a-5672-4774-b548-13baceb65a83_geom .
+
+suni:agent a owl:ObjectProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 .
+
+suni:b38bd519-1cd9-4152-a38d-f4075fbd2c7d a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Kostenki (Russia)"^^xsd:string ;
+    suni:literature "Fedele et al., 2003"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q2070357> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(39.0473 51.3858) "^^xsd:string ;
+    geo:hasGeometry suni:b38bd519-1cd9-4152-a38d-f4075fbd2c7d_geom .
+
+suni:b6bb1f3d-9e75-4541-be41-623b6b36fd8c a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Ponti Rossi (Naples)"^^xsd:string ;
+    suni:literature "Civetta et al., 1997;Giaccio et al., 2008;Pappalardo et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/3172391> ;
+    suni:relatedtohow "fsl:partlyMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.2594 40.8731)"^^xsd:string ;
+    geo:hasGeometry suni:b6bb1f3d-9e75-4541-be41-623b6b36fd8c_geom .
+
+suni:b710cf7b-b54e-465b-b2c8-d000c22e9c1a a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Villa di Briano (Naples)"^^xsd:string ;
+    suni:literature "Civetta et al., 1997"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q58927> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.1607 41.0000)"^^xsd:string ;
+    geo:hasGeometry suni:b710cf7b-b54e-465b-b2c8-d000c22e9c1a_geom .
+
+suni:b7dc5af7-1550-49fc-a5a7-f509144759c7 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Starza"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://www.openstreetmap.org/node/8710500139> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.7567 41.0075)"^^xsd:string ;
+    geo:hasGeometry suni:b7dc5af7-1550-49fc-a5a7-f509144759c7_geom .
+
+suni:b8f4b797-2878-4bb6-861c-950ef0ba30e2 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:low"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Titel Pleateau (Serbia)"^^xsd:string ;
+    suni:literature "Baykal et al., 2018"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q3391916> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(20.3026 45.2034)"^^xsd:string ;
+    geo:hasGeometry suni:b8f4b797-2878-4bb6-861c-950ef0ba30e2_geom .
+
+suni:ba7cec11-bbcd-4be2-a784-4868c9827db7 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Balta Alba (Romania)"^^xsd:string ;
+    suni:literature "Pötter et al., 2021"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/685575> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(27.2478 45.3037)"^^xsd:string ;
+    geo:hasGeometry suni:ba7cec11-bbcd-4be2-a784-4868c9827db7_geom .
+
+suni:beb78f3c-7d16-463c-bee3-27a515064f74 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:representative"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Kostenki-Borshchevo (Russia)"^^xsd:string ;
+    suni:literature "Fedele et al., 2008;Giaccio et al., 2008"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://en.wikipedia.org/wiki/Kostyonki%E2%80%93Borshchyovo> ;
+    suni:relatedtohow "fsl:dubiousMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(39.0517 51.3858)"^^xsd:string ;
+    geo:hasGeometry suni:beb78f3c-7d16-463c-bee3-27a515064f74_geom .
+
+suni:c0617563-544a-4d26-9822-b6bda5a1e0f9 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Kisiljevo (Serbia)"^^xsd:string ;
+    suni:literature "Baykal et al., 2018"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/789504> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(21.3912 44.7397)"^^xsd:string ;
+    geo:hasGeometry suni:c0617563-544a-4d26-9822-b6bda5a1e0f9_geom .
+
+suni:c1eafd40-7aa8-49eb-abfc-df9b1b4969ff a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Lake Prespa"^^xsd:string ;
+    suni:literature "Obreht, I. et al. (2017), Fig. 1;Panagiotopoulos, K. (2014)"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using GeoNamessGoogle Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/786766> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Lake"^^xsd:string ;
+    suni:wkt "POINT(21.0000 40.9167)"^^xsd:string ;
+    geo:hasGeometry suni:c1eafd40-7aa8-49eb-abfc-df9b1b4969ff_geom .
+
+suni:c271fda7-a6e8-47d6-a2f0-309268f0cb02 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Castelcivita Cave"^^xsd:string ;
+    suni:literature "Fedele et al., 2008;Giaccio et al., 2008"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 337519639"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q3777120;http://openstreetmap.org/node/337519639> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave"^^xsd:string ;
+    suni:wkt "POINT(15.2092 40.4956)"^^xsd:string ;
+    geo:hasGeometry suni:c271fda7-a6e8-47d6-a2f0-309268f0cb02_geom .
+
+suni:c434e049-c2ab-4308-8d6b-b3247b5ffba0 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "Fitzsimmons et al. (2014), p.76: “In this paper we investigate [...] the site of Urluia Quarry on the Dobrogea loess plateau [...], some 15 km south of the Danube River. The site immediately overlies the Quaternary-uplifted Cretaceous-Tertiary-age limestone basement rocks (Munteanu et al., 2008), which were the target of earlier quarrying activities.”; Pötter et al. (2021), p.5: “The Urluia (URL) LPS is located in an abandoned limestone quarry on the limestone plateau of the Dobrogea (Fitzsimmons et al., 2013; Fitzsimmons and Hambach, 2014; Obreht et al., 2017).”"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Urluia (Romania)"^^xsd:string ;
+    suni:literature "Fitzsimmons et al., 2014;Fitzsimmons et al.,, 2013;Obreht et al., 2017;Pötter et al., 2021"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://sws.geonames.org/664132;http://openstreetmap.org/way/84975654> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(27.9021 44.0947)"^^xsd:string ;
+    geo:hasGeometry suni:c434e049-c2ab-4308-8d6b-b3247b5ffba0_geom .
+
+suni:c7ea3548-2ccb-4255-923d-41e3c851c9e9 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Capezzano"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q2610850> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.7680 40.7119)"^^xsd:string ;
+    geo:hasGeometry suni:c7ea3548-2ccb-4255-923d-41e3c851c9e9_geom .
+
+suni:c870e052-4262-41b1-900a-b8904b193d4f a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:low"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Southern Ukraine"^^xsd:string ;
+    suni:literature "Fitzsimmons et al., 2013"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q2641546> ;
+    suni:relatedtohow "fsl:dubiousMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:ModernRegion"^^xsd:string ;
+    suni:wkt "POINT(31.8000 47.4300)"^^xsd:string ;
+    geo:hasGeometry suni:c870e052-4262-41b1-900a-b8904b193d4f_geom .
+
+suni:cc589824-3386-4c74-963c-2d4858e0b351 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Monte Echia (Naples)"^^xsd:string ;
+    suni:literature "Pappalardo et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q2794197> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Mountain"^^xsd:string ;
+    suni:wkt "POINT(14.2479 40.8312)"^^xsd:string ;
+    geo:hasGeometry suni:cc589824-3386-4c74-963c-2d4858e0b351_geom .
+
+suni:certainty a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:certaintyinfo a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:cf7e743a-d8f4-4c27-b872-5994d2086f8b a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Acerra Sink"^^xsd:string ;
+    suni:literature "Scandone et al., 1991"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/6537337> ;
+    suni:relatedtohow "fsl:partlyMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Sink"^^xsd:string ;
+    suni:wkt "POINT(14.3624 40.9489)"^^xsd:string ;
+    geo:hasGeometry suni:cf7e743a-d8f4-4c27-b872-5994d2086f8b_geom .
+
+suni:d00252fe-4f63-49f0-b240-15953297e005 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Tufara"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q4000186> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.7069 41.0577) "^^xsd:string ;
+    geo:hasGeometry suni:d00252fe-4f63-49f0-b240-15953297e005_geom .
+
+suni:d0dde15c-63af-4c52-b7d2-6794e14ef964 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "San Nicola La Strada"^^xsd:string ;
+    suni:literature "Civetta et al., 1997"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q58859> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.3313 41.0518)"^^xsd:string ;
+    geo:hasGeometry suni:d0dde15c-63af-4c52-b7d2-6794e14ef964_geom .
+
+suni:de26926e-76ed-42ff-ac01-deda81b25708 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Penta"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q1242721> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.7979 40.7615)"^^xsd:string ;
+    geo:hasGeometry suni:de26926e-76ed-42ff-ac01-deda81b25708_geom .
+
+suni:desc a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:e2c2c7fc-5a20-4aef-911a-bacb6b62310a a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0000-0002-3246-3531> ;
+    suni:certainty "fsl:high"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper and found on OpenStreetMap"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Franchthi Cave (Greece)"^^xsd:string ;
+    suni:literature "Fedele et al., 2003"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using OSM Node 1221172611"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q1441331;http://openstreetmap.org/node/1221172611> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave;fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(23.1311 37.4226)"^^xsd:string ;
+    geo:hasGeometry suni:e2c2c7fc-5a20-4aef-911a-bacb6b62310a_geom .
+
+suni:e366c3b4-1f36-4339-b0d8-7c63673b13c0 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Susak Island (Greece)"^^xsd:string ;
+    suni:literature "Wacha, 2011"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://sws.geonames.org/3189468;http://openstreetmap.org/relation/9854999> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Island"^^xsd:string ;
+    suni:wkt "POINT(14.2921 44.5104)"^^xsd:string ;
+    geo:hasGeometry suni:e366c3b4-1f36-4339-b0d8-7c63673b13c0_geom .
+
+suni:e39c6b92-4b79-4033-a504-b12b8ba7ecaf a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Lago Grande di Monticchio"^^xsd:string ;
+    suni:literature "Narcisi, 1996"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q56258568> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Lake"^^xsd:string ;
+    suni:wkt "POINT(15.6057 40.9315)"^^xsd:string ;
+    geo:hasGeometry suni:e39c6b92-4b79-4033-a504-b12b8ba7ecaf_geom .
+
+suni:ee2fb850-8487-47ed-8d4b-0c316e02c83e a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Vlasca (Romania)"^^xsd:string ;
+    suni:literature "Obreht et al., 2017"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://sws.geonames.org/662562> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(27.8491 44.3921)"^^xsd:string ;
+    geo:hasGeometry suni:ee2fb850-8487-47ed-8d4b-0c316e02c83e_geom .
+
+suni:efc5be2e-120f-4627-b914-11c08915fcb3 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Acqua Fidia"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://www.openstreetmap.org/node/2883423553> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.6983 40.9285)"^^xsd:string ;
+    geo:hasGeometry suni:efc5be2e-120f-4627-b914-11c08915fcb3_geom .
+
+suni:f0dacaaf-c5cf-4beb-a897-944d1ca311d6 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Pellezzano"^^xsd:string ;
+    suni:literature "Rosi et al., 1999"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q81270> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:InhabitedPlace"^^xsd:string ;
+    suni:wkt "POINT(14.7546 40.7249)"^^xsd:string ;
+    geo:hasGeometry suni:f0dacaaf-c5cf-4beb-a897-944d1ca311d6_geom .
+
+suni:f85ff8f5-92e4-417c-a0ee-4a6b56edc33b a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:low"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Russian Plane"^^xsd:string ;
+    suni:literature "Fitzsimmons et al., 2013"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <https://sws.geonames.org/471525> ;
+    suni:relatedtohow "fsl:spatialCloseMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Plateau"^^xsd:string ;
+    suni:wkt "POINT(45.0000 55.0000)"^^xsd:string ;
+    geo:hasGeometry suni:f85ff8f5-92e4-417c-a0ee-4a6b56edc33b_geom .
+
+suni:f942a44c-d2a7-4563-a30e-ff4ad2432d9e a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:dubious"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Scarafea Area"^^xsd:string ;
+    suni:literature "Civetta et al., 1997"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q1438;http://openstreetmap.org/relation/40218> ;
+    suni:relatedtohow "fsl:partlyMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:UnknownCategory"^^xsd:string ;
+    suni:wkt "POINT(14.1560 40.9346)"^^xsd:string ;
+    geo:hasGeometry suni:f942a44c-d2a7-4563-a30e-ff4ad2432d9e_geom .
+
+suni:f96fa386-47f2-4bfe-a31b-3378e4672462 a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:medium"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Marina di Cassano (Naples)"^^xsd:string ;
+    suni:literature "Civetta et al., 1997"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://sws.geonames.org/11961630;http://openstreetmap.org/node/566221732> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Bight "^^xsd:string ;
+    suni:wkt "POINT(14.3998 40.6385)"^^xsd:string ;
+    geo:hasGeometry suni:f96fa386-47f2-4bfe-a31b-3378e4672462_geom .
+
+suni:fa78c76c-39b9-404c-a03e-24fc24d1d98b a suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    suni:agent <http://orcid.org/0009-0008-2877-3204> ;
+    suni:certainty "fsl:dubious"^^xsd:string ;
+    suni:certaintyinfo "findspot mentioned in a scientific paper"^^xsd:string ;
+    suni:desc "CI findspot related from literature"^^xsd:string ;
+    suni:label "Golema Pesht Cave near Zdunje (Macedonia)"^^xsd:string ;
+    suni:literature "Lowe et al., 2012"^^xsd:string ;
+    suni:methoddesc "set a representative point based on scientific papers using Google Maps"^^xsd:string ;
+    suni:methodtype "fsl:Georeferencing"^^xsd:string ;
+    suni:relatedto <http://wikidata.org/entity/Q20565511;http://openstreetmap.org/node/11107939919> ;
+    suni:relatedtohow "skos:closeMatch"^^xsd:string ;
+    suni:source "fsl:PaperDesc"^^xsd:string ;
+    suni:sourcetype "fsl:Paper"^^xsd:string ;
+    suni:spatialtype "fsl:Cave;fsl:ArchaeologicalSite"^^xsd:string ;
+    suni:wkt "POINT(21.1617 41.8117)"^^xsd:string ;
+    geo:hasGeometry suni:fa78c76c-39b9-404c-a03e-24fc24d1d98b_geom .
+
+suni:label a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:literature a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:methoddesc a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:methodtype a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:relatedto a owl:ObjectProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 .
+
+suni:relatedtohow a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:source a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:sourcetype a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:spatialtype a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+suni:wkt a owl:DatatypeProperty ;
+    rdfs:domain suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 ;
+    rdfs:range xsd:string .
+
+geoepsg:WKT a geocrs:GeographicCRS,
+        owl:NamedIndividual,
+        prov1:Entity ;
+    rdfs:label "WGS 84"@en ;
+    geocrs:asProj4 "+proj=longlat +datum=WGS84 +no_defs +type=crs"^^xsd:string ;
+    geocrs:asProjJSON "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'GeographicCRS','name':'WGS 84','datum':{'type':'GeodeticReferenceFrame','name':'World Geodetic System 1984','ellipsoid':{'name':'WGS 84','semi_major_axis':6378137,'inverse_flattening':298.257223563}},'coordinate_system':{'subtype':'ellipsoidal','axis':[{'name':'Geodetic latitude','abbreviation':'Lat','direction':'north','unit':'degree'},{'name':'Geodetic longitude','abbreviation':'Lon','direction':'east','unit':'degree'}]},'id':{'authority':'EPSG','code':4326}}"^^xsd:string ;
+    geocrs:asWKT "GEOGCRS['WGS 84',DATUM['World Geodetic System 1984',ELLIPSOID['WGS 84',6378137,298.257223563,LENGTHUNIT['metre',1]]],PRIMEM['Greenwich',0,ANGLEUNIT['degree',0.0174532925199433]],CS[ellipsoidal,2],AXIS['geodetic latitude (Lat)',north,ORDER[1],ANGLEUNIT['degree',0.0174532925199433]],AXIS['geodetic longitude (Lon)',east,ORDER[2],ANGLEUNIT['degree',0.0174532925199433]],ID['EPSG',4326]]"^^geocrs:wktLiteral ;
+    geocrs:coordinateSystem geoepsg:WKT_cs ;
+    geocrs:datum geocrsdatum:World_Geodetic_System_1984 ;
+    geocrs:epsgCode "EPSG:WKT"^^xsd:string ;
+    geocrs:isApplicableTo geocrsisbody:Earth ;
+    geocrs:isBound false ;
+    geocrs:isGeocentric false ;
+    geocrs:isGeographic true ;
+    geocrs:isProjected false ;
+    geocrs:isVertical false .
+
+<http://www.opengis.net/ont/crs/EPSG:4326> a geocrs:SpatialReferenceSystem ;
+    geocrs:asProj "+proj=longlat +datum=WGS84 +no_defs"^^geocrs:proj4Literal ;
+    geocrs:asWKT "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]"^^geocrs:wktLiteral .
+
+geocrsaxis:east a geocrs:AxisDirection .
+
+geocrsaxis:north a geocrs:AxisDirection .
+
+geo:asWKT a owl:DatatypeProperty .
+
+geo:hasGeometry a owl:ObjectProperty .
+
+suni:04e561e8-3672-478c-b117-6ad439c589be_geom a geo:Point ;
+    geo:asWKT "Point (14.79059999999999953 40.76160000000000139)"^^geo:wktLiteral .
+
+suni:0b575106-41b3-4027-a177-a2e13293271b_geom a geo:Point ;
+    geo:asWKT "Point (14.76619999999999955 40.71979999999999933)"^^geo:wktLiteral .
+
+suni:0e64abf6-5313-4a91-970f-ba4116312dac_geom a geo:Point ;
+    geo:asWKT "Point (14.64589999999999925 40.67830000000000013)"^^geo:wktLiteral .
+
+suni:0fa57f68-19aa-4f0d-8b37-76d6bbe3e030_geom a geo:Point ;
+    geo:asWKT "Point (15.56990000000000052 40.94899999999999807)"^^geo:wktLiteral .
+
+suni:26edc892-dcc1-493e-ada7-4cd73fb4abaa_geom a geo:Point ;
+    geo:asWKT "Point (20.58089999999999975 45.24170000000000158)"^^geo:wktLiteral .
+
+suni:284e54a0-2e15-4efa-afe3-90a5138b8d11_geom a geo:Point ;
+    geo:asWKT "Point (14.04770000000000074 40.81110000000000326)"^^geo:wktLiteral .
+
+suni:32618a3e-9306-4897-9122-9d6ef66c97dd_geom a geo:Point ;
+    geo:asWKT "Point (20.28020000000000067 44.90319999999999823)"^^geo:wktLiteral .
+
+suni:35f53e25-2987-4e3f-beb6-473d691e2457_geom a geo:Point ;
+    geo:asWKT "Point (14.8705999999999996 40.85669999999999646)"^^geo:wktLiteral .
+
+suni:38118ef2-f8b8-48cc-9833-b718132f80ff_geom a geo:Point ;
+    geo:asWKT "Point (24.22739999999999938 40.97939999999999827)"^^geo:wktLiteral .
+
+suni:38f989d2-ae5f-49a7-875d-3cb5025b681a_geom a geo:Point ;
+    geo:asWKT "Point (14.08900000000000041 40.82150000000000034)"^^geo:wktLiteral .
+
+suni:3ba8194d-e14a-4daf-9400-bfca8ee283b7_geom a geo:Point ;
+    geo:asWKT "Point (18.48150000000000048 42.77900000000000347)"^^geo:wktLiteral .
+
+suni:3d7cd4a7-d402-4bd4-aae7-b4fc7b1b1196_geom a geo:Point ;
+    geo:asWKT "Point (14.05599999999999916 40.83809999999999718)"^^geo:wktLiteral .
+
+suni:40efd813-2bf3-42df-8772-d03523531c55_geom a geo:Point ;
+    geo:asWKT "Point (14.37330000000000041 40.60699999999999932)"^^geo:wktLiteral .
+
+suni:44ff90bf-a0cb-4171-8252-b6f91fd4e8ee_geom a geo:Point ;
+    geo:asWKT "Point (16.28330000000000055 41.0046999999999997)"^^geo:wktLiteral .
+
+suni:45ada15f-34cd-40e5-9b17-54d4c29f4af7_geom a geo:Point ;
+    geo:asWKT "Point (14.20800000000000018 40.85370000000000346)"^^geo:wktLiteral .
+
+suni:4858e193-fb19-467f-9688-6a70211b0f9d_geom a geo:Point ;
+    geo:asWKT "Point (18.75870000000000104 46.08740000000000236)"^^geo:wktLiteral .
+
+suni:4b5b0bd0-96c0-4146-a40e-475c2074411f_geom a geo:Point ;
+    geo:asWKT "Point (14.14860000000000007 40.89260000000000161)"^^geo:wktLiteral .
+
+suni:505ac950-ecad-424d-9f22-2ac722eaf069_geom a geo:Point ;
+    geo:asWKT "Point (24.00529999999999831 43.19069999999999965)"^^geo:wktLiteral .
+
+suni:511fe6f8-1593-452b-a308-83a7457e1aa0_geom a geo:Point ;
+    geo:asWKT "Point (15.61500000000000021 41.65409999999999968)"^^geo:wktLiteral .
+
+suni:59b63e96-da17-43e5-b28f-bed74ef1c667_geom a geo:Point ;
+    geo:asWKT "Point (27.3271000000000015 44.18910000000000338)"^^geo:wktLiteral .
+
+suni:5b01d480-6bf5-4747-a402-3d3d801d0481_geom a geo:Point ;
+    geo:asWKT "Point (14.52590000000000003 40.69930000000000092)"^^geo:wktLiteral .
+
+suni:5b99fefc-a7aa-4d5e-b8aa-d178f33d7627_geom a geo:Point ;
+    geo:asWKT "Point (28.23290000000000077 43.99960000000000093)"^^geo:wktLiteral .
+
+suni:63dac21d-69f7-4da0-a11f-dbe3af89c787_geom a geo:Point ;
+    geo:asWKT "Point (27.93469999999999942 44.24620000000000175)"^^geo:wktLiteral .
+
+suni:6656fdc3-3326-4470-8900-b8977af384be_geom a geo:Point ;
+    geo:asWKT "Point (20.67490000000000094 40.98740000000000094)"^^geo:wktLiteral .
+
+suni:66bd22f2-b37a-44d4-bfaf-d981ff435fe7_geom a geo:Point ;
+    geo:asWKT "Point (14.74019999999999975 40.97460000000000235)"^^geo:wktLiteral .
+
+suni:69b86dc3-d2a9-4dd7-a1ca-055c27247d84_geom a geo:Point ;
+    geo:asWKT "Point (14.25590000000000046 40.71920000000000073)"^^geo:wktLiteral .
+
+suni:6a7e9260-0006-4ac4-bd23-ca2ce4816f86_geom a geo:Point ;
+    geo:asWKT "Point (14.5193999999999992 40.80049999999999955)"^^geo:wktLiteral .
+
+suni:723a3d7f-7e39-4bc3-9f61-f23ef357a42f_geom a geo:Point ;
+    geo:asWKT "Point (14.33810000000000073 41.03690000000000282)"^^geo:wktLiteral .
+
+suni:79e3a8d3-1639-4c11-802d-d282181da31e_geom a geo:Point ;
+    geo:asWKT "Point (20.74089999999999989 41.0467000000000013)"^^geo:wktLiteral .
+
+suni:7bb229e5-d76c-4d3f-95c5-2ee508ad26a5_geom a geo:Point ;
+    geo:asWKT "Point (22.7024000000000008 43.6518999999999977)"^^geo:wktLiteral .
+
+suni:7e61a9ab-ace6-4bc0-b346-5f238e4fd1b4_geom a geo:Point ;
+    geo:asWKT "Point (21.46719999999999828 40.53609999999999758)"^^geo:wktLiteral .
+
+suni:80e8067c-83bb-4c12-bfdf-3a2f69586cb6_geom a geo:Point ;
+    geo:asWKT "Point (25.29200000000000159 43.65500000000000114)"^^geo:wktLiteral .
+
+suni:8f5e2c5d-adb6-48d1-8862-7cbfcf789c69_geom a geo:Point ;
+    geo:asWKT "Point (14.1402000000000001 40.82750000000000057)"^^geo:wktLiteral .
+
+suni:93a9ab84-dd31-49c1-bec9-55e2fb2db6fe_geom a geo:Point ;
+    geo:asWKT "Point (15.6097999999999999 40.93189999999999884)"^^geo:wktLiteral .
+
+suni:99aa8699-e8f3-439c-bbc4-dc0ce9875297_geom a geo:Point ;
+    geo:asWKT "Point (14.42730000000000068 40.66219999999999857)"^^geo:wktLiteral .
+
+suni:9b4a2b53-ef11-49e8-bc1b-ff57b97c507e_geom a geo:Point ;
+    geo:asWKT "Point (14.14889999999999937 40.88880000000000337)"^^geo:wktLiteral .
+
+suni:9e652ceb-382c-4ee1-aa48-fcc0077dbeab_geom a geo:Point ;
+    geo:asWKT "Point (14.44759999999999955 40.66190000000000282)"^^geo:wktLiteral .
+
+suni:9eb0f685-9fd8-4d3e-b948-41d561e74c65_geom a geo:Point ;
+    geo:asWKT "Point (21.40579999999999927 43.67280000000000229)"^^geo:wktLiteral .
+
+suni:a0c4bf81-ae3a-4b77-b1f5-c47917917cda_geom a geo:Point ;
+    geo:asWKT "Point (22.05160000000000053 32.90019999999999811)"^^geo:wktLiteral .
+
+suni:a28ee4f2-3460-4ee3-8f60-25ad48649adb_geom a geo:Point ;
+    geo:asWKT "Point (23.38479999999999848 43.08919999999999817)"^^geo:wktLiteral .
+
+suni:a459cf43-0ddb-4bfb-8d7c-4c76e9a17c5e_geom a geo:Point ;
+    geo:asWKT "Point (14.03659999999999997 40.92600000000000193)"^^geo:wktLiteral .
+
+suni:acc0cc13-f0e4-474f-b29f-a10b5ea109ac_geom a geo:Point ;
+    geo:asWKT "Point (22.30940000000000012 44.65679999999999694)"^^geo:wktLiteral .
+
+suni:adb3ba5a-5672-4774-b548-13baceb65a83_geom a geo:Point ;
+    geo:asWKT "Point (14.43469999999999942 40.64840000000000231)"^^geo:wktLiteral .
+
+suni:b38bd519-1cd9-4152-a38d-f4075fbd2c7d_geom a geo:Point ;
+    geo:asWKT "Point (39.0472999999999999 51.38580000000000325)"^^geo:wktLiteral .
+
+suni:b6bb1f3d-9e75-4541-be41-623b6b36fd8c_geom a geo:Point ;
+    geo:asWKT "Point (14.25939999999999941 40.87310000000000088)"^^geo:wktLiteral .
+
+suni:b710cf7b-b54e-465b-b2c8-d000c22e9c1a_geom a geo:Point ;
+    geo:asWKT "Point (14.16070000000000029 41)"^^geo:wktLiteral .
+
+suni:b7dc5af7-1550-49fc-a5a7-f509144759c7_geom a geo:Point ;
+    geo:asWKT "Point (14.75670000000000037 41.00750000000000028)"^^geo:wktLiteral .
+
+suni:b8f4b797-2878-4bb6-861c-950ef0ba30e2_geom a geo:Point ;
+    geo:asWKT "Point (20.30260000000000176 45.20340000000000202)"^^geo:wktLiteral .
+
+suni:ba7cec11-bbcd-4be2-a784-4868c9827db7_geom a geo:Point ;
+    geo:asWKT "Point (27.24780000000000157 45.30369999999999919)"^^geo:wktLiteral .
+
+suni:beb78f3c-7d16-463c-bee3-27a515064f74_geom a geo:Point ;
+    geo:asWKT "Point (39.05169999999999675 51.38580000000000325)"^^geo:wktLiteral .
+
+suni:c0617563-544a-4d26-9822-b6bda5a1e0f9_geom a geo:Point ;
+    geo:asWKT "Point (21.39120000000000132 44.73969999999999914)"^^geo:wktLiteral .
+
+suni:c1eafd40-7aa8-49eb-abfc-df9b1b4969ff_geom a geo:Point ;
+    geo:asWKT "Point (21 40.91669999999999874)"^^geo:wktLiteral .
+
+suni:c271fda7-a6e8-47d6-a2f0-309268f0cb02_geom a geo:Point ;
+    geo:asWKT "Point (15.20919999999999916 40.49560000000000315)"^^geo:wktLiteral .
+
+suni:c434e049-c2ab-4308-8d6b-b3247b5ffba0_geom a geo:Point ;
+    geo:asWKT "Point (27.90210000000000079 44.09470000000000312)"^^geo:wktLiteral .
+
+suni:c7ea3548-2ccb-4255-923d-41e3c851c9e9_geom a geo:Point ;
+    geo:asWKT "Point (14.76800000000000068 40.71189999999999998)"^^geo:wktLiteral .
+
+suni:c870e052-4262-41b1-900a-b8904b193d4f_geom a geo:Point ;
+    geo:asWKT "Point (31.80000000000000071 47.42999999999999972)"^^geo:wktLiteral .
+
+suni:cc589824-3386-4c74-963c-2d4858e0b351_geom a geo:Point ;
+    geo:asWKT "Point (14.24789999999999957 40.8312000000000026)"^^geo:wktLiteral .
+
+suni:cf7e743a-d8f4-4c27-b872-5994d2086f8b_geom a geo:Point ;
+    geo:asWKT "Point (14.36239999999999917 40.94890000000000185)"^^geo:wktLiteral .
+
+suni:d00252fe-4f63-49f0-b240-15953297e005_geom a geo:Point ;
+    geo:asWKT "Point (14.7068999999999992 41.05769999999999698)"^^geo:wktLiteral .
+
+suni:d0dde15c-63af-4c52-b7d2-6794e14ef964_geom a geo:Point ;
+    geo:asWKT "Point (14.33130000000000059 41.05180000000000007)"^^geo:wktLiteral .
+
+suni:de26926e-76ed-42ff-ac01-deda81b25708_geom a geo:Point ;
+    geo:asWKT "Point (14.79790000000000028 40.76149999999999807)"^^geo:wktLiteral .
+
+suni:e2c2c7fc-5a20-4aef-911a-bacb6b62310a_geom a geo:Point ;
+    geo:asWKT "Point (23.13109999999999999 37.42260000000000275)"^^geo:wktLiteral .
+
+suni:e366c3b4-1f36-4339-b0d8-7c63673b13c0_geom a geo:Point ;
+    geo:asWKT "Point (14.29209999999999958 44.51039999999999708)"^^geo:wktLiteral .
+
+suni:e39c6b92-4b79-4033-a504-b12b8ba7ecaf_geom a geo:Point ;
+    geo:asWKT "Point (15.60570000000000057 40.93149999999999977)"^^geo:wktLiteral .
+
+suni:ee2fb850-8487-47ed-8d4b-0c316e02c83e_geom a geo:Point ;
+    geo:asWKT "Point (27.84909999999999997 44.39209999999999923)"^^geo:wktLiteral .
+
+suni:efc5be2e-120f-4627-b914-11c08915fcb3_geom a geo:Point ;
+    geo:asWKT "Point (14.6982999999999997 40.92849999999999966)"^^geo:wktLiteral .
+
+suni:f0dacaaf-c5cf-4beb-a897-944d1ca311d6_geom a geo:Point ;
+    geo:asWKT "Point (14.75459999999999994 40.7248999999999981)"^^geo:wktLiteral .
+
+suni:f85ff8f5-92e4-417c-a0ee-4a6b56edc33b_geom a geo:Point ;
+    geo:asWKT "Point (45 55)"^^geo:wktLiteral .
+
+suni:f942a44c-d2a7-4563-a30e-ff4ad2432d9e_geom a geo:Point ;
+    geo:asWKT "Point (14.15600000000000058 40.93460000000000321)"^^geo:wktLiteral .
+
+suni:f96fa386-47f2-4bfe-a31b-3378e4672462_geom a geo:Point ;
+    geo:asWKT "Point (14.39980000000000082 40.63850000000000051)"^^geo:wktLiteral .
+
+suni:fa78c76c-39b9-404c-a03e-24fc24d1d98b_geom a geo:Point ;
+    geo:asWKT "Point (21.16169999999999973 41.81170000000000186)"^^geo:wktLiteral .
+
+geoepsg:WKT_cs a geocrs:EllipsoidalCoordinateSystem,
+        geocrs:PlanarCoordinateSystem ;
+    rdfs:label "EPSG:WKT CS: ellipsoidal" ;
+    geocrs:asProjJSON "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'CoordinateSystem','subtype':'ellipsoidal','axis':[{'name':'Geodetic latitude','abbreviation':'Lat','direction':'north','unit':'degree'},{'name':'Geodetic longitude','abbreviation':'Lon','direction':'east','unit':'degree'}]}" ;
+    geocrs:asWKT "CS[ellipsoidal,2],AXIS['geodetic latitude (Lat)',north,ORDER[1],ANGLEUNIT['degree',0.0174532925199433,ID['EPSG',9122]]],AXIS['geodetic longitude (Lon)',east,ORDER[2],ANGLEUNIT['degree',0.0174532925199433,ID['EPSG',9122]]]" ;
+    geocrs:axis geocrsaxis:Geodetic_latitude_degree_north,
+        geocrsaxis:Geodetic_longitude_degree_east .
+
+geocrsaxis:Geodetic_latitude_degree_north a geocrs:CoordinateSystemAxis ;
+    rdfs:label "Geodetic latitude (om:degree)"@en ;
+    geocrs:abbreviation "Lat"^^xsd:string ;
+    geocrs:direction geocrs:north ;
+    geocrs:unit om:degree ;
+    geocrs:unit_auth_code "EPSG"^^xsd:string ;
+    geocrs:unit_code "9122"^^xsd:string ;
+    geocrs:unit_conversion_factor 1.745329e-02 .
+
+geocrsaxis:Geodetic_longitude_degree_east a geocrs:CoordinateSystemAxis ;
+    rdfs:label "Geodetic longitude (om:degree)"@en ;
+    geocrs:abbreviation "Lon"^^xsd:string ;
+    geocrs:direction geocrs:east ;
+    geocrs:unit om:degree ;
+    geocrs:unit_auth_code "EPSG"^^xsd:string ;
+    geocrs:unit_code "9122"^^xsd:string ;
+    geocrs:unit_conversion_factor 1.745329e-02 .
+
+geocrsdatum:World_Geodetic_System_1984 a geocrs:GeodeticReferenceFrame ;
+    rdfs:label "Datum: World Geodetic System 1984"@en ;
+    geocrs:ellipse geocrsgeod:WGS84 ;
+    geocrs:primeMeridian geocrsmeridian:Greenwich .
+
+geocrsgeod:WGS84 a geocrs:Ellipsoid ;
+    rdfs:label "WGS 84"@en ;
+    geocrs:approximates geocrsisbody:Earth ;
+    geocrs:eccentricity 6.69438e-03 ;
+    geocrs:flatteningParameter 3.352811e-03 ;
+    geocrs:inverse_flattening 2.982572e+02 ;
+    geocrs:isSphere false ;
+    geocrs:is_semi_minor_computed true ;
+    geocrs:semiMajorAxis "6378137.0"^^xsd:string ;
+    geocrs:semiMinorAxis "6356752.314245179"^^xsd:string ;
+    skos:definition "+a=6378137 +f=0.0033528106647475126"^^xsd:string .
+
+geocrsmeridian:Greenwich a geocrs:PrimeMeridian ;
+    rdfs:label "Greenwich"@en ;
+    geocrs:asProjJSON "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'PrimeMeridian','name':'Greenwich','longitude':0,'id':{'authority':'EPSG','code':8901}}" ;
+    geocrs:asWKT "PRIMEM['Greenwich',0,ANGLEUNIT['degree',0.0174532925199433],ID['EPSG',8901]]" ;
+    geocrs:longitude 0e+00 ;
+    geocrs:unit <http://www.ontology-of-units-of-measure.org/resource/om-2/om:degree> .
+
+geo:Feature a owl:Class ;
+    rdfs:subClassOf geo:SpatialObject .
+
+geo:Geometry a owl:Class ;
+    rdfs:subClassOf geo:SpatialObject .
+
+om:degree a om:Unit .
+
+geo:SpatialObject a owl:Class .
+
+geo:Point a owl:Class ;
+    rdfs:subClassOf geo:Geometry .
+
+suni:d1f06db3-dd8c-4b96-a360-f28909f76c65 a owl:Class ;
+    rdfs:subClassOf geo:Feature .
+
