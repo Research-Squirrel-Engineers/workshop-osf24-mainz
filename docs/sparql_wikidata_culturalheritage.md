@@ -170,18 +170,18 @@ SELECT ?geo ?stone ?stoneLabel ?itemLabel ?inscription WHERE {
 }
 ```
 
-# Holy Wells as Map with images
+# Holy Wells as Map with images (opt. names after)
 
-via [https://w.wiki/BBJm](https://w.wiki/BBJm)
+via [https://w.wiki/BD2C](https://w.wiki/BD2C)
 
 ```
-#Holy Wells
 #defaultView:Map
-SELECT DISTINCT ?item ?itemLabel ?img ?geo ?osm WHERE {
+SELECT DISTINCT ?item ?itemLabel ?img ?geo ?osm ?namedafterLabel WHERE {
   ?item wdt:P31 wd:Q1371047, wd:Q126443332.
   OPTIONAL { ?item wdt:P18 ?img. }
   OPTIONAL { ?item wdt:P625 ?geo. }
   OPTIONAL { ?item wdt:P11693 ?osm. }
+  OPTIONAL { ?item wdt:P138 ?namedafter. }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 ```
