@@ -25,6 +25,6 @@
 
 ## RDF Documentation
 
-* [Startpage](https://research-squirrel-engineers.github.io/workshop-osf24-mainz/provinzgrenzen/)
-* [Instances](https://research-squirrel-engineers.github.io/workshop-osf24-mainz/provinzgrenzen/871b27c4-d62d-4a98-8578-cacc42df70d2_collection/index.html)
-* [Britannia](https://research-squirrel-engineers.github.io/workshop-osf24-mainz/provinzgrenzen/5853ef83-2d77-4b60-9ebd-5057c11c4422/index.html)
+* [Startpage](provinzgrenzen/)
+* [Instances](provinzgrenzen/871b27c4-d62d-4a98-8578-cacc42df70d2_collection/index.html)
+* [Britannia](provinzgrenzen/5853ef83-2d77-4b60-9ebd-5057c11c4422/index.html)
