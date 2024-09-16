@@ -67,3 +67,19 @@ SELECT DISTINCT ?item ?geo ?itemLabel ?stone ?stoneLabel ?readingLabel WHERE {
  FILTER(regex(?readingLabel, "MAQI"))
 }
 ```
+
+# Campanian Ignimbrite Findspots
+
+```
+SELECT ?item ?geo ?label ?ref ?spatialType {
+ ?item a <http://fuzzy-sl.squirrel.link/ontology/Site> .
+ ?item rdfs:label ?label.
+ ?item <http://fuzzy-sl.squirrel.link/ontology/hasReference> ?ref .
+ ?item <http://fuzzy-sl.squirrel.link/ontology/spatialType> ?spatialType .
+ ?item <http://www.opengis.net/ont/geosparql#hasGeometry> ?item_geom .
+ ?item_geom <http://www.opengis.net/ont/geosparql#asWKT> ?geo .
+}
+```
+
+
+http://fuzzy-sl.squirrel.link/ontology/
