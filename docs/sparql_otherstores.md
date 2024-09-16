@@ -30,3 +30,22 @@ WHERE {
  ?mun :hasLongitude ?lon .  
 } ORDER BY ?item DESC(?count)
 ```
+
+# Hadrians Wall Forts
+
+via [Research-Squirrel-Engineers / HadriansWall](https://github.com/Research-Squirrel-Engineers/HadriansWall)
+
+```
+SELECT ?item ?geo ?name ?latin_name ?typeLabel WHERE {
+ ?item rdf:type hw:Fort .
+ ?item geosparql:hasGeometry ?item_geom .
+ ?item_geom geosparql:asWKT ?geo . 
+ ?item hw:name ?name .
+ ?item hw:latin_name ?latin_name .
+ ?item a ?type .
+ ?type rdfs:label ?typeLabel.
+ FILTER NOT EXISTS { 
+  FILTER (?typeLabel = "Fort"@en)
+ }
+}
+```
