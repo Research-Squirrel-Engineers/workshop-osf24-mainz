@@ -19,15 +19,15 @@ WHERE  {
 
 # Houses in Leipzig /as WKT)
 
-via [https://tinyurl.com/2bpanebm](https://tinyurl.com/2bpanebm)
+via [https://tinyurl.com/2843nwew](https://tinyurl.com/2843nwew)
 
 ```
 #defaultView:Map
 #defaultView:Map{"hide":["?point", "?line"]}
 SELECT 
-  ?address (STRDT(?polygonn, geo:wktLiteral) AS ?polygon)
+  ?item (STRDT(?polygonn, geo:wktLiteral) AS ?geo)
 WHERE{
-    ?subject wdt:P153 ?address .
+    ?subject wdt:P153 ?item .
     ?subject wdt:P1035 ?polygonn .
 }
 ```
